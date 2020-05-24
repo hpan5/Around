@@ -10,5 +10,5 @@ jobs:
       - run: |
           docker build -t hpan996/around .
           docker login -u="$DOCKERHUB_USERNAME" -p="$DOCKERHUB_PASSWORD"
-          docker push [your-docker-user]/around
+          docker push hpan996/around
 
